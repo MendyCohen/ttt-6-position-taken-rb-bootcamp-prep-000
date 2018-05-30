@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 
 def position_taken?(board, index)
-    index.strip  == "" || index != "" 
+    index.strip == "" || index != "" 
     
 end
