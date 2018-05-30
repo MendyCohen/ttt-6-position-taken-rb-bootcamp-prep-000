@@ -3,5 +3,5 @@
 def position_taken?(board, index)
     #index == "" 
     board[index] != "" || board[index] == ""
-    #board[input] == "" || board[input] == " " board[input] == nil
+    board[input[8]] == "" 
 end
