@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 
-def position_taken?(board, input)
-    input == "" || input != "" || input == nil
+def position_taken?(board, index)
+    index == "" || index != "" || index == nil
     
 end
