@@ -2,6 +2,6 @@
 
 def position_taken?(board, input)
    #input == "" || input != ""
-    board[input] != ""
+    board[input] != "" || board[input] == ""
     #board[input] == "" || board[input] == " " board[input] == nil
 end
